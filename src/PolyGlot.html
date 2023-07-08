@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>PolyGlot IDE</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="http://chenesoio.altervista.org/WELLONE/Immagini/logo.png">
+<script src="scriptTranslate.js"></script>
+<script>
+
+function wellone() {
+  var we = document.getElementById('olla').value;
+  we = '<w>' + we;
+  
+  var selectedLanguage = document.getElementById('lingua').value;
+  var selectedArray;
+
+  if (selectedLanguage === 'it') {
+    selectedArray = array_it;
+  } else if (selectedLanguage === 'en') {
+    selectedArray = array_en;
+  } else if (selectedLanguage === 'fr') {
+    selectedArray = array_fr;
+  } else if (selectedLanguage === 'es') {
+    selectedArray = array_es;
+  } else if (selectedLanguage === 'de') {
+    selectedArray = array_de;
+  }
+
+  for (var i = 0; i < selectedArray.length; i++) {
+    we = we.replaceAll(selectedArray[i], array2[i]);
+  }
+
+  document.getElementById('console').innerHTML = we;
+}
+
+</script>
+<style>
+	textarea {
+		width: 1000px;
+		height: 500px;
+	}
+	#console {
+		border: 1px solid black;
+		height: 1000px;
+	}
+	button {
+		background-color: green;
+	}
+</style>
+</head>
+<body>
+<div align="center">
+	<h1>Linguaggio PolyGlot</h1>
+	<textarea id="olla"></textarea>
+	<hr>
+	<button onclick="wellone()">RUN</button>
+	<select id="lingua">
+  <option value="it">Italiano</option>
+  <option value="en">Inglese</option>
+  <option value="fr">Francese</option>
+  <option value="es">Spagnolo</option>
+  <option value="de">Tedesco</option>
+</select>
+
+	<hr>
+	<hr>
+</div>
+<div id="console"></div>
+</body>
+</html>
