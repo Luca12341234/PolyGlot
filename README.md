@@ -24,7 +24,7 @@ In questo primo capitolo, hai ottenuto una panoramica di PolyGlot e dei suoi van
 ## Capitolo 2: Utilizzo di PolyGlot tramite polyglot.lucamagrini1.repl.co
 
 2.1 Accesso all'ambiente di sviluppo online
-Apri il tuo browser web preferito. Nella barra degli indirizzi del browser, inserisci [il link o cliccca qui]((https://polyglot.lucamagrini1.repl.co/))
+Apri il tuo browser web preferito. Nella barra degli indirizzi del browser, inserisci o clicca nel seguente link https://polyglot.lucamagrini1.repl.co/
  e premi Invio. Verrai reindirizzato al sito web di PolyGlot, dove potrai iniziare a utilizzare l'ambiente di sviluppo online.
 2.2 Interfaccia dell'ambiente di sviluppo online
 interfaccia dell'ambiente di sviluppo online Una volta acceduto all'ambiente di sviluppo online di PolyGlot, ti troverai di fronte a un'interfaccia intuitiva che ti permette di scrivere e testare il tuo codice PolyGlot.
