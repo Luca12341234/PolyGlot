@@ -1,4 +1,4 @@
-[Immagine di PoliGlot](./assets/Poliglot.png)
+[Immagine di PoliGlot](https://github.com/Luca12341234/PolyGlot/blob/main/assets/polyglot.png)
 
 # PolyGlot
 
