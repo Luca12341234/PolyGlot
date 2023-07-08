@@ -1,4 +1,4 @@
-[Immagine in italiano](./assets/Poliglot-png)
+[Immagine di PoliGlot](./assets/Poliglot.png)
 
 # PolyGlot
 
