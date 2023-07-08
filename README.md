@@ -1,3 +1,5 @@
+[Immagine in italiano](./assets/Poliglot-png)
+
 # PolyGlot
 
 PolyGlot è un linguaggio di programmazione multilingue versatile e potente.
